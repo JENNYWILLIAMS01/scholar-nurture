@@ -1,0 +1,54 @@
+nav{
+    background-color: #ffffff;
+   .nav-item {
+        padding: 0 10px;
+   }
+   .navbar-nav .nav-item .nav-link {
+        color: #04172A;
+        font-weight: 600;
+        font-style: normal;
+   }
+   .navbar-nav .nav-item .nav-link.first {
+        font-weight: 800;
+        color: $greenlike;
+   }
+   .navbar-brand {
+        font-weight: 800;
+        font-size: $brand-size;
+        padding-left: 9%;
+   }
+   .brand1 {
+         color: $greenlike;
+   }
+   .brand2 {
+        color: #04172A;
+   }
+   .login {
+         margin-left: 90px;
+   }
+   .sign-up {
+     font-weight: 800;
+     font-size: 0.9rem;
+     padding: 16px 48px;
+     background: $button-color;
+     border-radius: 10px;
+     margin-right: 12%;
+     outline: none;
+     border: none;
+     cursor: pointer;
+     width: 163px;
+     height: 54px;
+     a{
+       color: $button-text-color;
+       text-decoration: none;
+     }
+  }
+   @media (max-width: 991px){
+        .navbar-brand{
+             font-size: 1rem;
+        }
+        .login{
+               margin-left: 0;
+            }
+        }
+}

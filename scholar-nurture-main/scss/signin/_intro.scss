@@ -1,0 +1,117 @@
+.sign-in{
+    @include backgroundImg("../images/signin/group.png");
+    .introdiv {
+        background-color: #000000;
+        padding: 0 2% 0 2%;
+        opacity: 0.9;
+      }
+      .sign-in-form{
+        display: flex;
+        justify-content: center;
+        padding: 2% 5% 10%;
+        form{
+            background: #ffffff;
+            padding: 1% 2%;
+            text-align: center;
+            width: 500px;
+            height: 728px;
+            margin: 80px 0 0;
+            border-radius: 10px;
+            font-family: $poppins;
+            color: #2D2D2D;
+            h3{
+                margin: 20px 0 40px;
+                font-weight: 600;
+                font-size: 32px;
+            }
+            input[type="email"], input[type="password"]{
+                border: 1px solid #454545;
+                box-sizing: border-box;
+                border-radius: 10px;
+                margin: 10px 0;
+                width: 386px;
+                height: 56px;
+                padding: 10px;
+                outline: none;
+            }
+            .forgot{
+                 display: flex;
+                 width: 90%;
+                 justify-content: flex-end;
+            }
+            button{
+                width: 200px;
+                height: 46px;
+                background: $button-color;
+                border-radius: 10px;
+                border: none;
+                outline: none;
+                color: $button-text-color;
+                margin-bottom: 30px;
+                font-weight: 600;
+            }
+            .or{
+                font-size: 1rem;
+                color: #2D2D2D;
+                position: relative;
+                margin-bottom: 60px;
+            }
+            .or:before{
+                display: block;
+                content: "";
+                width: 140px;
+                height: 0;
+                border: 1px solid #454545;
+                position: absolute;
+                top: 10px;
+                left: 30px;
+            }
+            .or:after{
+                display: block;
+                content: "";
+                width: 140px;
+                height: 0;
+                border: 1px solid #454545;
+                position: absolute;
+                top: 10px;
+                right: 30px;
+            }
+            .github{
+                margin-left: 100px;
+            }
+            span{
+                font-size: 18px;
+            }
+            .no-account{
+                margin: 120px 0;
+                color: #2D2D2D;
+                font-size: 1rem;
+                a{
+                    color: brown;
+                }
+            }
+        }
+        } 
+        @media (max-width: 500px){
+            .sign-in-form{
+                form{
+                    width: 350px;
+                    input[type="email"], input[type="password"]{
+                        width: 250px;
+                    }
+                    .or:before, .or.or:after{
+                        width: 70px;
+                    }
+                    .github{
+                        margin-left: 50px;
+                    }
+                    .no-account{
+                        font-size: 0.7rem;
+                    }
+                    span{
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+        } 
+}

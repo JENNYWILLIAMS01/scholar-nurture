@@ -1,0 +1,33 @@
+.suscribe{
+    background: #F6FCFF;
+    padding: 7% 7% 4% 7%;
+    .boxes{
+        text-align: center;
+    }
+    img{
+        background: $card-image-background;
+        color: #fff;
+        padding: 20px;
+        border-radius: 51px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #04172A;
+    }
+    .stubborn{
+        padding: 30px 20px;
+    }
+    .sep-div{
+        display: flex;
+        align-items: center;
+        height: 100px;
+    }
+    .seperators{
+        width: 100%;
+        border: 1px solid rgba(4, 23, 42, 0.25);
+        height: 0;
+        //transform: rotate(90deg);
+    }
+}

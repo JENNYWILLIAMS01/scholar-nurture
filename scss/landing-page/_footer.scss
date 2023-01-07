@@ -1,0 +1,48 @@
+footer{
+    padding: 5% 2%;
+    background: #04172A;
+    color: #ffffff;
+    text-align: left;
+    a{
+        color: #ffffff;
+    }
+    hr{
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        width: 80%;
+    }
+    h4{
+        font-family: $manrope;
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-family: $manrope;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .cards{
+        padding-right: 1%;
+    }
+    img{
+        cursor: pointer;
+        margin: 10px;
+    }
+    .instagram{
+        margin-left: 10px;
+    }
+    .date{
+        font-family: $manrope;
+        text-align: center;
+        font-size: 1rem;
+    }
+    @media (max-width: 991px){
+        h4{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}

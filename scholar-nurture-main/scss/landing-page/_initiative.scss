@@ -1,0 +1,44 @@
+.initiative{
+    background: rgba(73, 190, 255, 0.05);
+    padding: 5% 3% 1%;
+    @include headers;
+    h4{
+        width: 39%;
+        margin: 20px auto;
+    } 
+    .ini-card{
+        background: #FFFFFF;
+        box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin: 10px 10px;
+        img{
+            width: 100%;
+        }
+    p{
+       color: #334455;
+       font-weight: 700;
+       font-family: $manrope;
+       font-size: 1.5rem;
+    }
+    img{
+        border-radius: 5px;
+        margin: 21px 0px;
+    }
+    }
+    @media (max-width: 991px){
+        .ini-card{
+        p{
+            font-size: 0.9rem;
+        }
+    }
+        h4{
+            width: 60%;
+            font-size: 0.7rem;
+        }
+        .card{
+            p{
+                font-size: 0.7rem; 
+            }
+        }
+    }
+}

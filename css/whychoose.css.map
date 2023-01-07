@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,WADS,CACT,WAAW;AADb,WAAW,CAET,OAAO,CAAC;EACN,UAAU,EAAE,GAAG;EACf,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,kBAAkB;EAC3C,aAAa,EAAE,IAAI;CACpB",
+    "sources": [
+        "../scss/-whychoose.scss"
+    ],
+    "names": [],
+    "file": "-whychoose.css"
+}

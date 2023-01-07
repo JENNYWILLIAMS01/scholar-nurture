@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@600&display=swap");
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+nav .nav-item {
+  padding: 0 10px;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  color: #04172A;
+  font-weight: 600;
+  font-style: normal;
+}
+
+nav .navbar-nav .nav-item .nav-link.first {
+  font-weight: 800;
+  color: #00a39a;
+}
+
+nav .navbar-brand {
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding-left: 9%;
+}
+
+nav .brand1 {
+  color: #00a39a;
+}
+
+nav .brand2 {
+  color: #04172A;
+}
+
+nav .login {
+  margin-left: 90px;
+}
+
+nav .sign-up {
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding: 16px 48px;
+  background: #00a39a;
+  border-radius: 10px;
+  margin-right: 12%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 163px;
+  height: 54px;
+}
+
+nav .sign-up a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  nav .navbar-brand {
+    font-size: 1rem;
+  }
+  nav .login {
+    margin-left: 0;
+  }
+}
+
+.sign-in {
+  background-image: url("../images/signin/group.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.sign-in .introdiv {
+  background-color: #000000;
+  padding: 0 2% 0 2%;
+  opacity: 0.9;
+}
+
+.sign-in .sign-in-form {
+  display: flex;
+  justify-content: center;
+  padding: 2% 5% 10%;
+}
+
+.sign-in .sign-in-form form {
+  background: #ffffff;
+  padding: 1% 2%;
+  text-align: center;
+  width: 500px;
+  height: 728px;
+  margin: 80px 0 0;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #2D2D2D;
+}
+
+.sign-in .sign-in-form form h3 {
+  margin: 20px 0 40px;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.sign-in .sign-in-form form input[type="email"], .sign-in .sign-in-form form input[type="password"] {
+  border: 1px solid #454545;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 386px;
+  height: 56px;
+  padding: 10px;
+  outline: none;
+}
+
+.sign-in .sign-in-form form .forgot {
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
+}
+
+.sign-in .sign-in-form form button {
+  width: 200px;
+  height: 46px;
+  background: #00a39a;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.sign-in .sign-in-form form .or {
+  font-size: 1rem;
+  color: #2D2D2D;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.sign-in .sign-in-form form .or:before {
+  display: block;
+  content: "";
+  width: 140px;
+  height: 0;
+  border: 1px solid #454545;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.sign-in .sign-in-form form .or:after {
+  display: block;
+  content: "";
+  width: 140px;
+  height: 0;
+  border: 1px solid #454545;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.sign-in .sign-in-form form .github {
+  margin-left: 100px;
+}
+
+.sign-in .sign-in-form form span {
+  font-size: 18px;
+}
+
+.sign-in .sign-in-form form .no-account {
+  margin: 120px 0;
+  color: #2D2D2D;
+  font-size: 1rem;
+}
+
+.sign-in .sign-in-form form .no-account a {
+  color: brown;
+}
+
+@media (max-width: 500px) {
+  .sign-in .sign-in-form form {
+    width: 350px;
+  }
+  .sign-in .sign-in-form form input[type="email"], .sign-in .sign-in-form form input[type="password"] {
+    width: 250px;
+  }
+  .sign-in .sign-in-form form .or:before, .sign-in .sign-in-form form .or.or:after {
+    width: 70px;
+  }
+  .sign-in .sign-in-form form .github {
+    margin-left: 50px;
+  }
+  .sign-in .sign-in-form form .no-account {
+    font-size: 0.7rem;
+  }
+  .sign-in .sign-in-form form span {
+    font-size: 0.6rem;
+  }
+}
+/*# sourceMappingURL=signin.css.map */

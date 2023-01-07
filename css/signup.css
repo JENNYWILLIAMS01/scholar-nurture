@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@600&display=swap");
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+nav .nav-item {
+  padding: 0 10px;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  color: #04172A;
+  font-weight: 600;
+  font-style: normal;
+}
+
+nav .navbar-nav .nav-item .nav-link.first {
+  font-weight: 800;
+  color: #00a39a;
+}
+
+nav .navbar-brand {
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding-left: 9%;
+}
+
+nav .brand1 {
+  color: #00a39a;
+}
+
+nav .brand2 {
+  color: #04172A;
+}
+
+nav .login {
+  margin-left: 90px;
+}
+
+nav .sign-up {
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding: 16px 48px;
+  background: #00a39a;
+  border-radius: 10px;
+  margin-right: 12%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 163px;
+  height: 54px;
+}
+
+nav .sign-up a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  nav .navbar-brand {
+    font-size: 1rem;
+  }
+  nav .login {
+    margin-left: 0;
+  }
+}
+
+.sign-up-div {
+  background-image: url("../images/signin/group.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.sign-up-div .introdiv {
+  background-color: #000000;
+  padding: 0 2% 0 2%;
+  opacity: 0.9;
+}
+
+.sign-up-div .sign-up-form {
+  display: flex;
+  justify-content: center;
+  padding: 2% 5% 10%;
+}
+
+.sign-up-div .sign-up-form form {
+  background: #ffffff;
+  padding: 1% 2%;
+  text-align: center;
+  width: 500px;
+  height: 934px;
+  margin: 80px 0 0;
+  font-family: "Poppins", sans-serif;
+  color: #2D2D2D;
+}
+
+.sign-up-div .sign-up-form form h3 {
+  margin: 20px 0 40px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.sign-up-div .sign-up-form form input[type="email"], .sign-up-div .sign-up-form form input[type="password"], .sign-up-div .sign-up-form form input[type="text"], .sign-up-div .sign-up-form form .myselect {
+  border: 1px solid #454545;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 386px;
+  height: 56px;
+  padding: 10px;
+  outline: none;
+}
+
+.sign-up-div .sign-up-form form .myselect {
+  padding: 10px 0 10px 10px;
+  margin: auto;
+  color: #A0A0A0;
+}
+
+.sign-up-div .sign-up-form form button {
+  width: 200px;
+  height: 46px;
+  background: #00a39a;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  margin-bottom: 60px;
+  font-weight: 600;
+  margin: 50px 0;
+}
+
+.sign-up-div .sign-up-form form .or {
+  font-size: 1rem;
+  color: #2D2D2D;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.sign-up-div .sign-up-form form .or:before {
+  display: block;
+  content: "";
+  width: 140px;
+  height: 0;
+  border: 1px solid #454545;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.sign-up-div .sign-up-form form .or:after {
+  display: block;
+  content: "";
+  width: 140px;
+  height: 0;
+  border: 1px solid #454545;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.sign-up-div .sign-up-form form .check {
+  display: flex;
+  justify-content: flex-start;
+  width: 386px;
+  font-size: 12px;
+  margin: 8px auto 0;
+}
+
+.sign-up-div .sign-up-form form label {
+  margin-left: 13px;
+  margin-top: -2px;
+}
+
+.sign-up-div .sign-up-form form .github {
+  margin-left: 100px;
+}
+
+.sign-up-div .sign-up-form form span {
+  font-size: 18px;
+}
+
+.sign-up-div .sign-up-form form .no-account {
+  margin: 30px 0;
+  font-size: 1rem;
+}
+
+.sign-up-div .sign-up-form form .no-account a {
+  color: #00a39a;
+}
+
+@media (max-width: 500px) {
+  .sign-up-div .sign-up-form form {
+    width: 350px;
+  }
+  .sign-up-div .sign-up-form form input[type="email"], .sign-up-div .sign-up-form form input[type="password"], .sign-up-div .sign-up-form form input[type="text"], .sign-up-div .sign-up-form form .myselect, .sign-up-div .sign-up-form form .check {
+    width: 250px;
+    font-size: 0.6rem;
+  }
+  .sign-up-div .sign-up-form form .or:before, .sign-up-div .sign-up-form form .or.or:after {
+    width: 70px;
+  }
+  .sign-up-div .sign-up-form form .github {
+    margin-left: 50px;
+  }
+  .sign-up-div .sign-up-form form .no-account {
+    font-size: 0.7rem;
+  }
+  .sign-up-div .sign-up-form form span {
+    font-size: 0.6rem;
+  }
+  .sign-up-div .sign-up-form form label {
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=signup.css.map */

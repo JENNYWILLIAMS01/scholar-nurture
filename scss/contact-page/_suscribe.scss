@@ -1,0 +1,58 @@
+.suscribe{
+    background: $powderblue;
+    text-align: center;
+    padding: 7% 3%;
+    h3{
+        font-weight: 800;
+        font-size: 1.5rem;
+        color: #000000;
+        width: 30%;
+        margin: auto; 
+    }
+    .suscribe-input{
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+        input[type="email"]{
+            background: #FFFFFF;
+            border: 3px solid rgba(4, 23, 42, 0.3);
+            box-sizing: border-box;
+            border-radius: 5px;
+            width: 910px;
+            height: 66px;
+            outline: none;
+            padding: 0 1% 0 5px;
+        }
+        button{
+            width: 281px;
+            height: 66px;
+            background: $button-color;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            margin-left: -50px;
+            font-family: $manrope;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            color: $button-text-color;
+        }
+    }
+    @media (max-width: 991px){
+        h3{
+            width: 60%;
+            font-size: 0.8rem;
+        } 
+        .suscribe-input{
+        input[type="email"]{
+            padding: 0 30% 0 10px;
+        }
+        input[placeholder]{
+            font-size: 0.6rem;
+        }
+        button{
+            font-size: 0.8rem;
+        }
+    }
+}
+}

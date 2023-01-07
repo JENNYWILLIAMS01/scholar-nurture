@@ -1,0 +1,799 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap");
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.intro {
+  background-image: url("../images/LandingPageImages/background-first-page.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.intro .carousel-indicators .active {
+  background-color: #00a39a;
+  border: none;
+}
+
+.intro .indicator {
+  margin-bottom: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #fc8f0f;
+}
+
+.intro .backward,
+.intro .forward {
+  width: 100px;
+  height: 100px;
+}
+
+.intro .introdiv {
+  background-color: #000;
+  padding: 10% 2% 9% 2%;
+  opacity: 0.8;
+}
+
+.intro nav {
+  background-color: #000;
+  padding: 2% 8% 0 9%;
+  opacity: 0.8;
+}
+
+.intro nav .nav-item {
+  padding: 0 10px;
+}
+
+.intro nav .navbar-nav .nav-item .nav-link {
+  color: #eeeeee;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.intro nav .navbar-nav .nav-item .nav-link.first {
+  font-weight: 800;
+  color: #00a39a;
+}
+
+.intro nav .navbar-brand {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.intro nav .brand1 {
+  color: #00a39a;
+}
+
+.intro nav .brand2 {
+  color: #fff;
+}
+
+.intro nav .login {
+  margin-left: 70px;
+}
+
+.intro nav .sign-up {
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding: 16px 48px;
+  background: #00a39a;
+  border-radius: 10px;
+  margin-right: 12%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 163px;
+  height: 54px;
+}
+
+.intro nav .sign-up a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.intro .main-intro {
+  text-align: center;
+  width: 45%;
+  margin: 40px auto 20px;
+}
+
+.intro .main-intro h1 {
+  font-weight: 800;
+  font-size: 4.5rem;
+}
+
+.intro .main-intro h1,
+.intro .main-intro h3 {
+  color: #ffffff;
+  line-height: 1.3;
+  margin: 10px;
+}
+
+.intro .main-intro h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.intro .main-intro .intro-btn {
+  width: 202px;
+  height: 54px;
+  border-radius: 10px;
+  background: #00a39a;
+  font-weight: 800;
+  color: #ffffff;
+  margin-top: 80px;
+}
+
+@media (max-width: 1192px) {
+  .intro .indicator {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .intro .main-intro h1 {
+    font-size: 1.4rem;
+  }
+  .intro .main-intro h3 {
+    font-size: 0.8rem;
+  }
+  .intro nav .navbar-brand {
+    font-size: 1rem;
+  }
+  .intro nav .login {
+    margin-left: 0;
+  }
+  .intro .main-intro {
+    width: 60%;
+  }
+  .intro .main-intro .intro-btn {
+    width: 150px;
+    height: 40px;
+    font-size: 0.8rem;
+  }
+  .intro .main-intro h1 {
+    font-size: 1rem;
+  }
+  .intro .main-intro h3 {
+    font-size: 0.6rem;
+  }
+}
+
+.insights {
+  background: #e5e5e5;
+  padding: 5% 5%;
+}
+
+.insights h2, .insights h4 {
+  text-align: center;
+}
+
+.insights h2 {
+  color: #03182e;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.insights h4 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgba(4, 23, 42, 0.54);
+}
+
+@media (max-width: 991px) {
+  .insights h2 {
+    font-size: 1rem;
+  }
+  .insights h4 {
+    font-size: 0.7rem;
+  }
+}
+
+.insights .insight-cards {
+  margin-top: 60px;
+}
+
+.insights .insight-cards .insight-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 10px 20px;
+  padding: 5% 3% 3% 1%;
+}
+
+.insights .insight-cards p,
+.insights .insight-cards h2 {
+  text-align: left;
+}
+
+.insights .insight-cards h2 {
+  font-weight: 800;
+  font-size: 2rem;
+  color: #033160;
+}
+
+.insights .insight-cards p {
+  color: #334455;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.insights .insight-cards .insight-image {
+  color: #fff;
+  background: linear-gradient(134.64deg, #03837c -0.15%, #42fff4 100.24%);
+  padding: 15px;
+  border-radius: 51px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+  .insights .insight-card h2 {
+    font-size: 1rem;
+  }
+  .insights .insight-card p {
+    font-size: 0.8rem;
+  }
+}
+
+.why-choose {
+  background: #ffffff;
+  padding: 5% 0 1% 0;
+}
+
+.why-choose h2 {
+  font-weight: 800;
+  font-size: 3rem;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.why-choose .chose-cards {
+  margin: 60px 0;
+}
+
+.why-choose .chose-card {
+  margin: 20px 0;
+}
+
+.why-choose .chose-card,
+.why-choose .subdiv {
+  background: #ffffff;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.why-choose .subdiv {
+  margin-top: 10px;
+  padding: 2% 7%;
+}
+
+.why-choose .subdiv p {
+  font-size: 1rem;
+  color: #04172a;
+  line-height: 1.5;
+}
+
+.why-choose .subdiv img {
+  margin-top: -40px;
+}
+
+@media (max-width: 991px) {
+  .why-choose h2 {
+    width: 60%;
+    font-size: 1rem;
+  }
+  .why-choose .subdiv p {
+    font-size: 0.8rem;
+  }
+}
+
+.initiative {
+  background: rgba(73, 190, 255, 0.05);
+  padding: 5% 3% 1%;
+}
+
+.initiative h2, .initiative h4 {
+  text-align: center;
+}
+
+.initiative h2 {
+  color: #03182e;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.initiative h4 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgba(4, 23, 42, 0.54);
+}
+
+@media (max-width: 991px) {
+  .initiative h2 {
+    font-size: 1rem;
+  }
+  .initiative h4 {
+    font-size: 0.7rem;
+  }
+}
+
+.initiative h4 {
+  width: 39%;
+  margin: 20px auto;
+}
+
+.initiative .ini-card {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+
+.initiative .ini-card img {
+  width: 100%;
+}
+
+.initiative .ini-card p {
+  color: #334455;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.5rem;
+}
+
+.initiative .ini-card img {
+  border-radius: 5px;
+  margin: 21px 0px;
+}
+
+@media (max-width: 991px) {
+  .initiative .ini-card p {
+    font-size: 0.9rem;
+  }
+  .initiative h4 {
+    width: 60%;
+    font-size: 0.7rem;
+  }
+  .initiative .card p {
+    font-size: 0.7rem;
+  }
+}
+
+.opportunities {
+  background: #ffffff;
+  padding: 5% 0 1% 0;
+}
+
+.opportunities .opp-headers {
+  display: flex;
+  width: 79%;
+  justify-content: space-between;
+  margin: 20px auto 40px;
+  border-bottom: 2px solid rgba(0, 163, 154, 0.17);
+  padding: 20px;
+}
+
+.opportunities h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.opportunities h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.opportunities .cards {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 3% 3% 3% 1%;
+}
+
+.opportunities .cards h4 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #002142;
+}
+
+.opportunities .cards p {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #334455;
+}
+
+.opportunities .cards img {
+  color: #fff;
+  background: linear-gradient(134.64deg, #03837c -0.15%, #42fff4 100.24%);
+  padding: 15px;
+  border-radius: 51px;
+  margin-bottom: 40px;
+}
+
+.opportunities button {
+  background: #00a39a;
+  color: #ffffff;
+  border-radius: 10px;
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .opportunities h2, .opportunities h3 {
+    font-size: 0.7rem;
+  }
+  .opportunities h3 {
+    margin-top: -1px;
+  }
+  .opportunities .cards h4 {
+    font-size: 1rem;
+  }
+  .opportunities .cards p {
+    font-size: 0.9rem;
+  }
+}
+
+.events {
+  background: #ffffff;
+  padding: 5% 0 1% 0;
+}
+
+.events .opp-headers {
+  display: flex;
+  width: 79%;
+  justify-content: space-between;
+  margin: 20px auto 40px;
+  border-bottom: 2px solid rgba(0, 163, 154, 0.17);
+  padding: 20px;
+}
+
+.events h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.events h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.events .cards {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 3% 1% 3% 1%;
+}
+
+.events .cards img {
+  width: 100%;
+}
+
+.events .cards h4 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #002142;
+}
+
+.events .cards p {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #334455;
+}
+
+.events .cards button {
+  background: #00a39a;
+  color: #ffffff;
+  border-radius: 10px;
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .events h2, .events h3 {
+    font-size: 0.7rem;
+  }
+  .events h3 {
+    margin-top: -1px;
+  }
+}
+
+.suscribe {
+  background: #F6FCFF;
+  padding: 7% 7% 4% 7%;
+}
+
+.suscribe .boxes {
+  text-align: center;
+}
+
+.suscribe img {
+  background: linear-gradient(134.64deg, #03837c -0.15%, #42fff4 100.24%);
+  color: #fff;
+  padding: 20px;
+  border-radius: 51px;
+  margin-bottom: 20px;
+}
+
+.suscribe p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #04172A;
+}
+
+.suscribe .stubborn {
+  padding: 30px 20px;
+}
+
+.suscribe .sep-div {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.suscribe .seperators {
+  width: 100%;
+  border: 1px solid rgba(4, 23, 42, 0.25);
+  height: 0;
+}
+
+.testimonial {
+  background: #ffffff;
+  padding: 5% 1%;
+}
+
+.testimonial h2, .testimonial h4 {
+  text-align: center;
+}
+
+.testimonial h2 {
+  color: #03182e;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.testimonial h4 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgba(4, 23, 42, 0.54);
+}
+
+@media (max-width: 991px) {
+  .testimonial h2 {
+    font-size: 1rem;
+  }
+  .testimonial h4 {
+    font-size: 0.7rem;
+  }
+}
+
+.testimonial h4 {
+  width: 40%;
+  margin: auto;
+}
+
+.testimonial .backward,
+.testimonial .forward {
+  width: 100px;
+  height: 100px;
+}
+
+.testimonial .card {
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 100px 20px 20px;
+  padding: 2% 3.5% 3% 3.5%;
+}
+
+.testimonial .card p {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #293F54;
+}
+
+.testimonial .card .john-doe {
+  font-weight: 600;
+  font-size: 16px;
+  color: #04172A;
+  margin-bottom: 0;
+}
+
+.testimonial .card .hr {
+  font-size: 0.7rem;
+  color: #04172A;
+  margin-top: 2px;
+}
+
+.testimonial .card img {
+  width: 50px;
+  height: 50px;
+  margin: 20px auto 10px;
+}
+
+.candidate {
+  background: rgba(0, 163, 154, 0.03);
+  padding: 5% 2%;
+}
+
+.candidate h2, .candidate h4 {
+  text-align: center;
+}
+
+.candidate h2 {
+  color: #03182e;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.candidate h4 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgba(4, 23, 42, 0.54);
+}
+
+@media (max-width: 991px) {
+  .candidate h2 {
+    font-size: 1rem;
+  }
+  .candidate h4 {
+    font-size: 0.7rem;
+  }
+}
+
+.candidate h4 {
+  width: 40%;
+  margin: auto;
+}
+
+.candidate .about {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.candidate .about .cand-flex .john-doe, .candidate .about .cand-flex .hr {
+  color: #04172A;
+}
+
+.candidate .about .cand-flex .john-doe {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #04172A;
+}
+
+.candidate .about .cand-flex .hr {
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+
+.candidate .cards {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 100px 20px 20px;
+  padding: 3% 3% 3% 2%;
+}
+
+.candidate .cards p {
+  font-size: 1rem;
+  color: #04172A;
+  margin-bottom: 30px;
+}
+
+.candidate .cards button {
+  background: #00a39a;
+  color: #ffffff;
+  border-radius: 10px;
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .candidate h4 {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+footer {
+  padding: 5% 2%;
+  background: #04172A;
+  color: #ffffff;
+  text-align: left;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  width: 80%;
+}
+
+footer h4 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-family: "Manrope", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+footer .cards {
+  padding-right: 1%;
+}
+
+footer img {
+  cursor: pointer;
+  margin: 10px;
+}
+
+footer .instagram {
+  margin-left: 10px;
+}
+
+footer .date {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+}
+
+@media (max-width: 991px) {
+  footer h4 {
+    font-size: 1rem;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
